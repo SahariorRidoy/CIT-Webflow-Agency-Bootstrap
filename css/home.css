@@ -54,22 +54,24 @@ header ul {
   display: flex;
   gap: 32px;
   padding-top: 20px;
- 
 }
 header ul li {
   display: flex;
   gap: 32px;
-  color: #bbbbcb;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
 }
-header ul li:hover{
+header ul li a{
+    color: #bbbbcb;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+header ul li a:hover{
     color: white;
+    cursor: pointer;
  
 }
-header ul li:visited{
+header ul li a:visited{
     color: white;
  
 }
