@@ -24,6 +24,8 @@ a {
 
 /* Header Styles */
 header {
+    padding-top: 16px;
+    padding-bottom: 128px;
   background: #1c1e53;
 }
 header .navbar {
@@ -31,6 +33,7 @@ header .navbar {
   justify-content: space-between;
   align-items: center;
   justify-items: center;
+  margin-bottom: 126px;
 }
 header .nav-right {
   color: white;
@@ -74,4 +77,64 @@ header ul li a:hover{
 header ul li a:visited{
     color: white;
  
+}
+/* Banner Section Styles */
+
+.banner-contents h1{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    margin-bottom: 24px;
+}
+.banner-contents p{
+    color: var(--White, #FFF);
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+.banner-contents .btn-left{
+    padding: 16px 56px;
+    border-radius: 41px;
+ background: #FCD980;
+ 
+}
+.banner-contents .btn-left a{
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+    }
+
+.banner-contents .btn-right{
+    padding: 16px 56px;
+    border-radius: 41px;
+    background: transparent;
+     border: none;
+     color: #1B1C2B;
+}
+.banner-contents .btn-right:hover {
+    background: #FCD980;
+    transition: all linear .5s;
+}
+
+.banner-contents .btn-right a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+.banner-contents .btn-right a:hover{
+    color: black;
+    transition: all linear .5s;
+    
 }
