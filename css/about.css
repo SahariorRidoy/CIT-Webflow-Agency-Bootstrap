@@ -112,3 +112,40 @@ line-height: 28px;
  .about-section .col-lg-6 img{
     margin-left: 80px;
 }
+
+/* What We Section Styles */
+
+.what-we-r .container{
+    background: #F4F5F5;
+    padding: 80px;
+    max-width: 1295px;
+}
+.what-we-r .container .col-lg-6 h3{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; 
+}
+.what-we-r .container .col-lg-6 p{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+opacity: 0.7;
+max-width: 515px;
+}
+.what-we-r .container .col-lg-6 h6{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+.what-we-r .container .right{
+   margin-top: 38px;
+}
