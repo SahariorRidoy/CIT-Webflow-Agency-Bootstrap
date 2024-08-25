@@ -642,3 +642,83 @@ header ul li a:visited {
   font-weight: 500;
   line-height: 28px;
 }
+
+/* Footer Section Styles */
+footer{
+    background: #1C1E53;
+    padding-top: 96px;
+}
+footer .col-lg-6 .contact-info{
+    background: var(--Yellow, #FCD980);
+    display: flex;
+    padding-top: 18px;
+    padding-left: 38px;
+    padding-bottom: 16px;
+    gap: 29px;
+    max-width: 519px;
+    margin-top: 86px;
+}
+footer .col-lg-6 .contact-info h5{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+footer .col-lg-6 .contact-info p{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+opacity: 0.8;
+}
+footer .col-lg-6 .left-p{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 399px;
+    margin-top: 22px;
+    margin-bottom: 86px;
+}
+
+footer .col-lg-6 h2{
+    color: #FFF;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+  
+}
+footer .col-lg-6 .right-p{
+    color: var(--Grey, #F4F6FC);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+max-width: 399px;
+margin-top: 14px;
+margin-bottom: 28px;
+}
+
+
+/* Copyright Section */
+.copyright{
+    margin-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright ul{
+   display: flex;
+}
+.copyright ul li{
+   margin-left: 32px;
+}
