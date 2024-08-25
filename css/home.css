@@ -412,3 +412,70 @@ display: flex;
 justify-content: space-between;
 gap: 10px;
 }
+
+/* FAQ Section Styles */
+.faq-section{
+    background: #FFF;
+}
+.faq-section .col-lg-4 h2{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+}
+.faq-section .col-lg-4 button{
+    border: none;
+    background: none;
+    margin-top: 16px;
+}
+.faq-section .col-lg-8 h3{
+    color: var(--Royal-Blue, #2405F2);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+.faq-section .col-lg-8 h4{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+.faq-section .col-lg-8 .qs-1{
+    display: flex;
+    justify-content: space-between;
+}
+.faq-section .col-lg-8 .qs-1 .qs-1-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 59px;
+}
+.faq-section .col-lg-8 .qs-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.faq-section .col-lg-8 .qs-2 .qs-1-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 59px;
+}
+.faq-section .col-lg-8 .faq-ans{
+    max-width: 624px;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+opacity: 0.87;
+}
