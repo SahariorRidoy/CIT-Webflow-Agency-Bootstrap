@@ -19,7 +19,7 @@ li,
 a {
   list-style-type: none;
   text-decoration: none;
-  color: white;
+  border:none
 }
 
 /* Header Styles */
@@ -137,4 +137,74 @@ header ul li a:visited{
     color: black;
     transition: all linear .5s;
     
+}
+
+/* Work Section Styles */
+.work-section{
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+.work-section .col-lg-5 h3{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px;
+}
+.work-section .col-lg-5 p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    opacity: 0.7;
+    margin: 16px 0;
+    max-width: 405px;
+}
+.work-section .col-lg-5 button{
+    border: none;
+    background: transparent;
+}
+.work-section .col-lg-7 .upper-cards{
+    margin-bottom: 48px;
+}
+.work-section .col-lg-7 .upper-cards h3{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+margin-bottom: 8px;
+margin-top: 16px;
+}
+.work-section .col-lg-7 .upper-cards p{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+opacity: 0.7;
+}
+.work-section .col-lg-7 .lower-cards h3{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+margin-bottom: 8px;
+margin-top: 16px;
+}
+.work-section .col-lg-7 .lower-cards p{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+opacity: 0.7;
 }
