@@ -208,3 +208,81 @@ font-weight: 400;
 line-height: 28px;
 opacity: 0.7;
 }
+
+/* Projects Section Styles */
+.project-section{
+    padding: 128px 0;
+}
+.project-section .contents{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.project-section .contents button{
+    border: none;
+    background: transparent;  
+}
+.project-section .contents button a{
+    border: none;
+    background: transparent;
+    color: black;
+    
+}
+.project-section .image-3{
+    margin-left: 9px;
+    margin-top: 32px;
+}
+.project-section .overlay{
+    position: relative;
+}
+.project-section .ovarlay-contents{
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    max-width: 396px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-items:center;
+    padding-bottom: 125px;
+    padding-left: 48px;
+    padding-right: 35px;
+}
+.project-section .ovarlay-contents:hover{
+    max-width: 64.2%;
+   transition: all linear .7s;
+}
+.project-section .ovarlay-contents h4{
+    color: var(--White, #FFF);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; 
+}
+.project-section .ovarlay-contents p{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    opacity: 0.8;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.project-section .ovarlay-contents button {
+    border: none; 
+    background: none;
+    align-self: start;
+}
+.project-section .ovarlay-contents button a{
+    color: var(--Yellow, #FCD980);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px; 
+text-align: left;
+}
