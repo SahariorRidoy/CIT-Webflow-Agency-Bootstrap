@@ -1,0 +1,76 @@
+/* Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.manrope-font {
+  font-family: "Manrope", system-ui;
+}
+.poppins-font {
+  font-family: "Poppins", system-ui;
+}
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  border: none;
+}
+
+/* Header Styles */
+header {
+  padding-top: 16px;
+  background: #1c1e53;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+header .nav-right {
+  color: white;
+  display: flex;
+  gap: 48px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+header .nav-right button {
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  color: white;
+  padding: 16px 48px;
+  background: transparent;
+}
+header .nav-right button a {
+  color: white;
+}
+header ul {
+  display: flex;
+  gap: 32px;
+  padding-top: 20px;
+}
+header ul li {
+  display: flex;
+  gap: 32px;
+}
+header ul li a {
+  color: #bbbbcb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+header ul li a:hover {
+  color: white;
+  cursor: pointer;
+}
+header ul li a:visited {
+  color: white;
+}
