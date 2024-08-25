@@ -416,6 +416,7 @@ gap: 10px;
 /* FAQ Section Styles */
 .faq-section{
     background: #FFF;
+    padding: 128px 0;
 }
 .faq-section .col-lg-4 h2{
     color: var(--Dark-blue, #282938);
@@ -478,4 +479,110 @@ font-style: normal;
 font-weight: 500;
 line-height: 32px;
 opacity: 0.87;
+}
+
+/* Inquiry Section Styles */
+.inquiry-section{
+    padding-bottom: 128px;
+}
+.inquiry-section .overlay-bg{
+    position: relative;
+}
+.inquiry-section .overlay-content{
+    background: rgba(28, 30, 83, 0.50);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 18x;
+    top: 0;
+    padding-top: 96px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+.inquiry-section .overlay-content h2{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+    margin-bottom: 24px;
+}
+.inquiry-section .overlay-content p{
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+.inquiry-section .bg-color{
+    background: #1C1E53;
+    color: white;
+    padding-top: 96px;
+    padding-bottom: 48px;
+    padding-left: 96px;
+}
+.inquiry-section .bg-color h3 {
+    color: #FFF;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+}
+.inquiry-section .bg-color p {
+    color: var(--Grey, #F4F6FC);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+.inquiry-section .bg-color input {
+    background: transparent;
+    display: flex;
+    border-radius: 8px;
+border: 1.5px solid rgba(255, 255, 255, 0.05);
+padding-top: 18px;
+padding-bottom: 18px;
+padding-left: 32px;
+width: 432px;
+margin-bottom: 39px;
+}
+.inquiry-section .bg-color .colored {
+    border-radius: 41px;
+background: #FCD980;
+    display: block;
+    border: none;
+    padding: 15px 51px;
+    width: 432px;
+
+}
+.inquiry-section .bg-color .colored a{
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+.inquiry-section .bg-color .non-colored {
+    border-radius: 41px;
+background: transparent;
+    display: block;
+    border: none;
+    padding: 15px 51px;
+    width: 432px;
+
+}
+.inquiry-section .bg-color .non-colored a{
+    color: white;
+
+}
+.inquiry-section .bg-color .button-flex {
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   justify-content: center;
 }
