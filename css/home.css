@@ -348,3 +348,67 @@ font-weight: 400;
 line-height: 28px; 
 opacity: 0.7;
 }
+
+/* Testimonial Section Styles */
+.testimonial{
+background: #f4f6fc50;
+padding: 128px 0;
+}
+.testimonial .col-lg-4 h2{
+max-width: 327px;
+color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+}
+.testimonial .col-lg-4 p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 16px;
+    max-width: 327px;
+}
+.testimonial .col-lg-8 h3{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; 
+}
+.testimonial .col-lg-8 h4{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+}
+.testimonial .col-lg-8 p{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+}
+.testimonial .col-lg-8 .rounded-woman{
+    height: 58px;
+    border-radius: 50%;
+}
+
+.testimonial .testimonial-person{
+display: flex;
+justify-content: space-between;
+margin-top: 48px;
+}
+.testimonial .testimonial-person .flex-image{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
