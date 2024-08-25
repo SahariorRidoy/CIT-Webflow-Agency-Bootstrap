@@ -74,3 +74,41 @@ header ul li a:hover {
 header ul li a:visited {
   color: white;
 }
+
+/* About Section Start */
+.about-section{
+    padding: 128px 0;
+}
+ .about-section .col-lg-6 h6{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+ .about-section .col-lg-6 h1{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+    max-width: 595px;
+    margin-top: 8px;
+    margin-bottom: 31px;
+}
+ .about-section .col-lg-6 p{
+    color: var(--Dark-blue, #282938);
+text-align: justify;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+    max-width: 595px;
+    opacity: 0.7;
+}
+ .about-section .col-lg-6 img{
+    margin-left: 80px;
+}
