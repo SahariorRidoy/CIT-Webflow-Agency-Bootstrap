@@ -77,11 +77,11 @@ header ul li a:visited {
 }
 
 
-/* Blog Section Styles */
-.blog-section{
+/* Blog Banner Styles */
+.blog-section-banner{
 padding: 128px 0;
 }
-.blog-section h1{
+.blog-section-banner h1{
 text-align: center;
 max-width: 949px;
 margin: 0 auto;
@@ -94,7 +94,7 @@ font-weight: 600;
 line-height: 64px;
 margin-bottom: 16px;
 }
-.blog-section h6{
+.blog-section-banner h6{
 text-align: center;
 color: var(--Dark-blue, #282938);
 text-align: center;
@@ -107,7 +107,7 @@ margin: 0 auto;
 opacity: 0.87;
 margin-bottom: 32px;
 }
-.blog-section p{
+.blog-section-banner p{
     color: var(--Dark-blue, #282938);
     text-align: center;
     font-family: Poppins;
@@ -123,17 +123,17 @@ margin: 0 auto;
 margin-top: 48px;
 margin-bottom: 16px;
 }
-.blog-section .btn{
+.blog-section-banner .btn{
     margin: 0 auto;
     border: none;
     width: 1112x;
 }
-.blog-section .btn button {
+.blog-section-banner .btn button {
     border: none;
     background: #FFF;
     
 }
-.blog-section .btn button a{
+.blog-section-banner .btn button a{
     color: var(--Royal-Blue, #2405F2);
     text-align: center;
     font-family: Poppins;
@@ -144,9 +144,67 @@ margin-bottom: 16px;
     
 }
 
-
-
-
+/* Blog Section Styles */
+.blog-section {
+    padding-bottom: 128px;
+  }
+  .blog-section .col-lg-12 h2 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+  }
+  .blog-section .col-lg-4 img {
+    margin-bottom: 40px;
+  }
+  .blog-section .col-lg-4 h3 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+  .blog-section .col-lg-4 p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    max-width: 405px;
+  }
+  .blog-section .col-lg-4 .date {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .blog-section .col-lg-4 button {
+    background: none;
+    border: none;
+    margin-top: 32px;
+  }
+  .blog-section .col-lg-4 button a {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .blog-section .col-lg-12 .lower {
+    margin-top: 64px;
+  }
 
 /* Footer Section Styles */
 footer{
