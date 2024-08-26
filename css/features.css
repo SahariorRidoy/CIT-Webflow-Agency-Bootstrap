@@ -1,0 +1,247 @@
+/* Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.manrope-font {
+  font-family: "Manrope", system-ui;
+}
+.poppins-font {
+  font-family: "Poppins", system-ui;
+}
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  border: none;
+}
+
+/* Header Styles */
+header {
+  padding-top: 16px;
+  background: #1c1e53;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+header .nav-right {
+  color: white;
+  display: flex;
+  gap: 48px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+header .nav-right button {
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  color: white;
+  padding: 16px 48px;
+  background: transparent;
+}
+header .nav-right button a {
+  color: white;
+}
+header ul {
+  display: flex;
+  gap: 32px;
+  padding-top: 20px;
+}
+header ul li {
+  display: flex;
+  gap: 32px;
+}
+header ul li a {
+  color: #bbbbcb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+header ul li a:hover {
+  color: white;
+  cursor: pointer;
+}
+header ul li a:visited {
+  color: white;
+}
+
+/* Pricing Plan Section Styles */
+
+.pricing-plan{
+    padding: 128px 0;
+}
+.pricing-plan h1{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+}
+.pricing-plan p{
+    color: var(--Dark-blue, #282938);
+text-align: justify;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+opacity: 0.7;
+max-width: 562px;
+margin: 0 auto;
+margin-bottom: 64px;
+}
+.pricing-plan .cards1 .cards-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.pricing-plan .cards1 .cards-top h3{
+    color: var(--Dark-blue, #282938);
+
+    /* Heading 3 */
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+}
+.pricing-plan .cards1 .cards-top p{
+    color: var(--Royal-Blue, #2405F2);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-top: 50px;
+}
+.pricing-plan .cards1 .cards-top h4{
+    color: var(--Dark-blue, #282938);
+
+    /* Heading 6 */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin-top: -100px;
+}
+.pricing-plan .cards1 button{
+    padding: 25px 51px;
+    border-radius: 41px;
+background: var(--Dark-blue, #282938);
+margin-top: 79px;
+border: none;
+}
+.pricing-plan .cards-middle button{
+    padding: 25px 51px;
+    border-radius: 41px;
+background: var(--Yellow, #FCD980);
+margin-top: 79px;
+border: none;
+text-align: center;
+}
+
+.pricing-plan .cards1 button a{
+    color: var(--Grey, #F4F6FC);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+}
+.pricing-plan .cards-middle button a{
+    color: var(--Dark-blue, #282938);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+}
+
+.pricing-plan .cards1{
+    border-radius: 12px;
+background: var(--Grey, #F4F6FC);
+padding: 64px 76px;
+max-width: 462px;
+}
+.pricing-plan .cards-middle{
+    border-radius: 12px;
+background: #1C1E53;
+text-align: ;
+}
+
+
+
+
+.pricing-plan .cards-middle .cards-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.pricing-plan .cards-middle .cards-top h3{
+    color: var(--White, #FFF);
+
+/* Heading 3 */
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 147.368% */
+}
+.pricing-plan .cards-middle .cards-top p{
+    color: var(--Yellow, #FCD980);
+
+/* Body 1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.pricing-plan .cards-middle h4{
+    color: var(--White, #FFF);
+
+/* Heading 6 */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; /* 150% */
+}
+.pricing-plan .cards-middle p{
+    color: var(--White, #FFF);
+
+    /* Body 2 */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+}
+.pricing-plan .cards-middle li{
+    color: var(--White, #FFF);
+
+/* Body 1 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.pricing-plan .cards1 li{
+   list-style-type:square;
+}
