@@ -76,88 +76,110 @@ header ul li a:visited {
   color: white;
 }
 
-/* Banner Section Styles */
-.read-blog-banner{
-    padding: 128px 0;
+/* Contact Section Styles */
+.contact-section{
+    padding: 128px;
 }
-.read-blog-banner h1{
+.contact-section h1{
     color: var(--Dark-blue, #282938);
-text-align: center;
-font-family: Poppins;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 64px;
-margin-bottom: 16px;
-max-width: 949px;
-margin: 0 auto;
-}
-.read-blog-banner .author{
-color: var(--Dark-blue, #282938);
-text-align: center;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 28px;
-}
-.read-blog-banner {
-    color: var(--Dark-blue, #282938);
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 28px;
-    margin-bottom: 48px;
     text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 16px;
 }
-.read-blog-banner h2{
+.contact-section p{
     color: var(--Dark-blue, #282938);
+text-align: center;
 font-family: Poppins;
-font-size: 38px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+opacity: 0.7;
+max-width: 562px;
+margin: 0 auto;
+
+}
+.contact-section .col-lg-10{
+    border-radius: 12px;
+background: var(--Grey, #F4F6FC);
+margin: 0 auto;
+padding: 55px 77px;
+margin-top: 64px;
+
+}
+.contact-section .col-lg-10 label{
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+margin-bottom: 6px;
+
+}
+.contact-section .col-lg-10 input{
+    padding: 18px 32px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: transparent;
+    margin-bottom: 16px;
+}
+.contact-section .col-lg-10 input::placeholder{
+    color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.contact-section .col-lg-10 .upper{
+   flex-direction: row;
+   display: flex;
+   justify-content: space-between;
+
+}
+.contact-section .col-lg-10 .top{
+   flex-direction: column;
+   display: flex;
+   width: 438px;
+
+}
+.contact-section .col-lg-10 .bottom{
+   flex-direction: column;
+   display: flex;
+   width: 438px;
+
+}
+.contact-section .col-lg-10 .msg{
+   flex-direction: column;
+   display: flex;
+   width: 100%;
+
+}
+.contact-section .col-lg-10 .msg input{
+   padding-bottom: 92px;
+
+}
+.contact-section .col-lg-10 button{
+   border: none;
+   border-radius: 41px;
+background: var(--Dark-blue, #282938);
+margin-top: 32px;
+padding: 20px 51px;
+}
+.contact-section .col-lg-10 button a{
+    color: var(--Grey, #F4F6FC);
+font-family: Manrope;
+font-size: 18px;
 font-style: normal;
 font-weight: 600;
-line-height: 56px;
-margin-bottom: 32px;
-margin-top: 48px;
-text-align: left;
+line-height: 32px;
+    
+    
 }
-.read-blog-banner p{
-text-align: left;
-color: var(--Dark-blue, #282938);
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-opacity: 0.7;
-}
-.read-blog-banner span{
-    opacity: 0.7;
-    color: var(--Royal-Blue, #2405F2);
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-}
-.read-blog-banner li{
-   text-align: left;
-   margin-bottom: 24px;
-   list-style-type:disc ;
-   color: var(--Dark-blue, #282938);
-text-align: justify;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-opacity: 0.7;
-}
-
-
-
-
 
 
 /* Footer Section Styles */
