@@ -185,6 +185,91 @@ margin-bottom: 16px;
     justify-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 64px;
+}
+
+
+/* Keywords Contact Section Styles */
+.keywords-contact{
+  padding-bottom: 128px;
+}
+.keywords-contact hr{
+  opacity: 0.2;
+background: #282938;
+}
+.keywords-contact ul{
+ display: flex;
+ gap: 53px;
+}
+.keywords-contact ul li{
+  color: var(--Dark-blue, #282938);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  opacity: 0.7;
+}
+.keywords-contact ul li:hover{
+  color: var(--Royal-Blue, #2405F2);
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+cursor: pointer;
+}
+.keywords-contact .contact h2{
+  color: var(--Dark-blue, #282938);
+text-align: center;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+margin-top: 128px;
+margin-bottom: 20px;
+}
+.keywords-contact .contact p{
+  color: var(--Dark-blue, #282938);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+max-width: 624px;
+margin: 0 auto;
+opacity: 0.7;
+}
+.keywords-contact .contact .btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.keywords-contact .contact .btn button:hover{
+  background: #1B1C2B;
+}
+.keywords-contact .contact .btn button{
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 16px 67px 16px 66px;
+  border-radius: 41px;
+background: #FCD980;
+
+}
+.keywords-contact .contact a{
+  color: #1B1C2B;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+}
+.keywords-contact .contact a:hover{
+  color: #FFF;
 }
 
 
