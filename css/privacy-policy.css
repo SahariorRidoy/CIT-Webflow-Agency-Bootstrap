@@ -1,0 +1,227 @@
+/* Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.manrope-font {
+  font-family: "Manrope", system-ui;
+}
+.poppins-font {
+  font-family: "Poppins", system-ui;
+}
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+ a{
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+
+
+/* Header Styles */
+header {
+  padding-top: 16px;
+  background: #1c1e53;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+header .nav-right {
+  color: white;
+  display: flex;
+  gap: 48px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+header .nav-right button {
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  color: white;
+  padding: 16px 48px;
+  background: transparent;
+}
+header .nav-right button a {
+  color: white;
+}
+header ul {
+  display: flex;
+  gap: 32px;
+  padding-top: 20px;
+}
+header ul li {
+  display: flex;
+  gap: 32px;
+}
+header ul li a {
+  color: #bbbbcb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+header ul li a:hover {
+  color: white;
+  cursor: pointer;
+}
+header ul li a:visited {
+  color: white;
+}
+
+/* Privacy Policy Section Styles */
+.privacy-policy{
+  padding: 128px 0;
+}
+.privacy-policy .head>h1{
+  color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+margin-bottom: 16px;
+text-align: center;
+}
+.privacy-policy .head>p{
+  color: var(--Dark-blue, #282938);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+max-width: 562px;
+margin: 0 auto;
+margin-bottom: 64px;
+}
+.privacy-policy h2{
+  color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+margin-bottom: 32px;
+}
+.privacy-policy p{
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  opacity: 0.7;
+}
+.privacy-policy span{
+  opacity: 0.7;
+color: var(--Royal-Blue, #2405F2);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.privacy-policy li{
+  list-style-type: disc;
+  color: var(--Dark-blue, #282938);
+text-align: justify;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+opacity: 0.7;
+margin-bottom: 16px;
+}
+
+
+
+
+
+/* Footer Section Styles */
+footer{
+    background: #1C1E53;
+    padding-top: 96px;
+}
+footer .col-lg-6 .contact-info{
+    background: var(--Yellow, #FCD980);
+    display: flex;
+    padding-top: 18px;
+    padding-left: 38px;
+    padding-bottom: 16px;
+    gap: 29px;
+    max-width: 519px;
+    margin-top: 86px;
+}
+footer .col-lg-6 .contact-info h5{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+footer .col-lg-6 .contact-info p{
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+opacity: 0.8;
+}
+footer .col-lg-6 .left-p{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 399px;
+    margin-top: 22px;
+    margin-bottom: 86px;
+}
+
+footer .col-lg-6 h2{
+    color: #FFF;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+  
+}
+footer .col-lg-6 .right-p{
+    color: var(--Grey, #F4F6FC);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+max-width: 399px;
+margin-top: 14px;
+margin-bottom: 28px;
+}
+
+
+/* Copyright Section */
+.copyright{
+    margin-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright ul{
+   display: flex;
+}
+.copyright ul li{
+   margin-left: 32px;
+}
