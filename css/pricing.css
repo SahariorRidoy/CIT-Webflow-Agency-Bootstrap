@@ -71,7 +71,7 @@ header ul li a:hover {
   color: white;
   cursor: pointer;
 }
-header ul li a:visited {
+header ul li a:active{
   color: white;
 }
 
@@ -107,6 +107,7 @@ margin-bottom: 64px;
     justify-content: center;
     justify-items: center;
     
+    
 }
 .pricing-plan .cards1 .cards-top h3{
     color: var(--Dark-blue, #282938);
@@ -117,6 +118,9 @@ margin-bottom: 64px;
     font-style: normal;
     font-weight: 600;
 }
+.pricing-plan .cards1:hover .cards-top h3{
+  color: var(--White, #FFF);
+}
 .pricing-plan .cards1 .cards-top p{
     color: var(--Royal-Blue, #2405F2);
 font-family: Poppins;
@@ -125,16 +129,21 @@ font-style: normal;
 font-weight: 400;
 margin-top: 50px;
 }
-.pricing-plan .cards1 .cards-top h4{
-    color: var(--Dark-blue, #282938);
+.pricing-plan .cards1:hover .cards-top p{
+  color: var(--Yellow, #FCD980);
 
-    /* Heading 6 */
+}
+.pricing-plan .cards1 .cards-top h4{
+    color: var(--Dark-blue, #070708);
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 36px; /* 150% */
+    line-height: 36px; 
     margin-top: -100px;
+}
+.pricing-plan .cards1:hover h4{
+  color: var(--White, #FFF);
 }
 .pricing-plan .cards1 button{
     padding: 25px 51px;
@@ -143,13 +152,8 @@ background: var(--Dark-blue, #282938);
 margin-top: 79px;
 border: none;
 }
-.pricing-plan .cards-middle button{
-    padding: 25px 51px;
-    border-radius: 41px;
-background: var(--Yellow, #FCD980);
-margin-top: 79px;
-border: none;
-text-align: center;
+.pricing-plan .cards1:hover button{
+  background: var(--Yellow, #FCD980);
 }
 
 .pricing-plan .cards1 button a{
@@ -158,89 +162,33 @@ font-family: Manrope;
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
-line-height: 32px; /* 177.778% */
+line-height: 32px;
 }
-.pricing-plan .cards-middle button a{
-    color: var(--Dark-blue, #282938);
-font-family: Manrope;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px; /* 177.778% */
-}
+.pricing-plan .cards1:hover button a{
+  color: var(--Dark-blue, #282938);
 
+}
 .pricing-plan .cards1{
     border-radius: 12px;
 background: var(--Grey, #F4F6FC);
 padding: 64px 76px;
-max-width: 462px;
+max-width: 400px;
+margin-right: 15px;
+margin-left: 15px;
 }
-.pricing-plan .cards-middle{
-    border-radius: 12px;
+.pricing-plan .cards1:hover{
+  border-radius: 12px;
 background: #1C1E53;
+transition: all linear .7s;
 }
 
-
-
-
-.pricing-plan .cards-middle .cards-top{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    
-}
-.pricing-plan .cards-middle .cards-top h3{
+.pricing-plan .cards1:hover p{
     color: var(--White, #FFF);
 
-/* Heading 3 */
-font-family: Poppins;
-font-size: 38px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px; /* 147.368% */
 }
-.pricing-plan .cards-middle .cards-top p{
-    color: var(--Yellow, #FCD980);
-
-/* Body 1 */
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 175% */
-}
-.pricing-plan .cards-middle h4{
+.pricing-plan .cards1:hover li{
     color: var(--White, #FFF);
-
-/* Heading 6 */
-font-family: Poppins;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 36px; /* 150% */
 }
-.pricing-plan .cards-middle p{
-    color: var(--White, #FFF);
-
-    /* Body 2 */
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 28px; /* 175% */
-}
-.pricing-plan .cards-middle li{
-    color: var(--White, #FFF);
-
-/* Body 1 */
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 175% */
-}
-
 .pricing-plan .cards1 li{
    list-style-type:square;
 }

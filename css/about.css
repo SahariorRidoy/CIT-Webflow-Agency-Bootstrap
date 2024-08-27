@@ -71,7 +71,7 @@ header ul li a:hover {
   color: white;
   cursor: pointer;
 }
-header ul li a:visited {
+header ul li a:active{
   color: white;
 }
 
@@ -315,6 +315,32 @@ margin-bottom: 48px;
 .team-section .col-lg-12 .cards{
   background: #FFF;
   padding: 48px 0 32px 0;
+}
+.team-section .col-lg-3 .gradient{
+  height: 168px;
+  width: 168px;
+  position: absolute;
+  top: 0;
+  left: 81px;
+  border-radius: 50%;
+  transition: all linear .8s;
+}
+.team-section .col-lg-3 .gradient:hover{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 81px;
+  border-radius: 50%;
+  height: 168px;
+  width: 168px;
+  background:linear-gradient(348deg, #5239FA 17.97%, rgba(255, 255, 255, 0.00) 79.2%);
+  cursor: pointer;
+  transition: all linear .8s;
+  
+}
+.team-section .col-lg-3 {
+  position: relative;
+  
 }
 
 /* About Footer */

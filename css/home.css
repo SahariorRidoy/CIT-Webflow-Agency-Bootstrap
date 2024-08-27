@@ -73,7 +73,7 @@ header ul li a:hover {
   color: white;
   cursor: pointer;
 }
-header ul li a:visited {
+header ul li a:active {
   color: white;
 }
 /* Banner Section Styles */
